@@ -10,9 +10,12 @@ const AboutUs = () => {
       <div className="flex">
         <div className="col">
           <img className="photo" src={zuzkaPic} alt="Zuzka" />
+          <div class="card"></div>
         </div>
         <div className="col">
           <img className="photo" src={lenaPic} alt="Lena" />
+          <p class="nadpis_onas">3 NEJ LENY</p>
+          <div class="card"></div>
         </div>
       </div>
     </div>
