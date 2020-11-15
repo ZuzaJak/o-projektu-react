@@ -55,7 +55,7 @@ const AboutUs = () => {
               <em>const</em> z**********
             </p>
             <p class="question">Nejlepší css vlastnost?</p>
-            <p class="answer">Border ve všech podobách.&#128525</p>
+            <p class="answer">Border ve všech podobách.</p>
           </div>
         </div>
       </div>
