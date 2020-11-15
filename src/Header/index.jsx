@@ -14,7 +14,7 @@ const Header = () => {
             <a className="btn btn-one" href="#project">
               PROJEKT
             </a>
-            <a className="btn btn-one" href="#">
+            <a className="btn btn-one" href="#about_us">
               O NÁS
             </a>
           </div>
