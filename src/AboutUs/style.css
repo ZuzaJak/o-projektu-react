@@ -1,0 +1,65 @@
+/* About us  */
+.photo {
+  margin: 10px;
+  width: 140px;
+  border-radius: 50%;
+}
+.flex .col img {
+  /* width: 100%; */
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.flex .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+.flex .col .btn {
+  align-self: center;
+  margin-top: auto;
+}
+@media (max-width: 900px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+.card {
+  flex: 1 1 40%;
+  max-width: 500px;
+  min-height: 350px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
+}
+.question {
+  font-size: 14px;
+  font-weight: 700;
+}
+.nadpis_onas {
+  font-size: 26px;
+  font-weight: 800;
+}
+.answer {
+  font-size: 14px;
+  font-weight: 300;
+}
+.container_nav {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logo_github {
+  margin: 10px;
+  width: 30px;
+  border-radius: 50%;
+}

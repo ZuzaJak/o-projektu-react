@@ -1,0 +1,54 @@
+/* FOOTER  */
+.footer {
+  margin-top: 50px;
+}
+.footer-names {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.coding-icon {
+  width: 15px;
+  filter: invert();
+}
+
+.footer-end {
+  font-size: 10px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.podtrzeni::after {
+  content: ' ';
+  display: block;
+  width: 280px;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .names {
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .and {
+    padding: 0 15px 0 15px;
+  }
+}
+.contact {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.76);
+  font-weight: 500;
+}
+
+.card-projekt {
+  flex: 1 1 50%;
+}
+
+.projekt-ul {
+  text-align: start;
+  line-height: 40px;
+}
