@@ -1,16 +1,22 @@
 /* AboutProject */
 .flex-projekt {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.flex-projekt h1 {
+h1 {
   margin: 40px;
 }
 .card-projekt {
+  width: 95%;
+  max-width: 1050px;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
-  font-size: 16px;
-  font-weight: 300;
   background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
+}
+
+.projekt-ul {
+  text-align: start;
+  line-height: 50px;
+  font-size: 18px;
 }

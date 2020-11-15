@@ -4,12 +4,11 @@ import './style.css';
 const AboutProject = () => {
   return (
     <div id="project">
+      <h1>O projektu</h1>
       <div className="flex-projekt">
-        <h1>O našem projektu</h1>
         <div className="card-projekt">
           <ul className="projekt-ul">
             <li>web přibližující kódování (HTML a CSS) dětem</li>
-            <li>cílová skupina 6-10 let</li>
             <li>výuková aplikace a rozcestník pro učitele 1.stupně ZŠ</li>
             <li>
               kódovací wikipedie - základní informace o tvorbě webu, HTML a CSS

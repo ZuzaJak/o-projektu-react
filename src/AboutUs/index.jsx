@@ -6,7 +6,7 @@ import githublogo from '../img/github_logo.png';
 
 const AboutUs = () => {
   return (
-    <div id="about_us">
+    <div className="about__us" id="about_us">
       <h1>O nás</h1>
       <div className="flex">
         <div className="col">

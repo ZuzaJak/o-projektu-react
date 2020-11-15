@@ -1,4 +1,10 @@
 /* About us  */
+.about__us {
+  margin-top: 80px;
+}
+.about__us h1 {
+  margin: 0;
+}
 .photo {
   margin: 10px;
   width: 140px;
@@ -40,9 +46,10 @@
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
   background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
+  line-height: 30px;
 }
 .question {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 .nadpis_onas {
@@ -50,7 +57,7 @@
   font-weight: 800;
 }
 .answer {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 .container_nav {

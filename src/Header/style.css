@@ -11,26 +11,10 @@ html {
 body {
   background: linear-gradient(90deg, #f7971e, #fde807 100%);
   background-attachment: fixed;
-  color: azure;
+  color: whitesmoke;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-.container {
-  width: 95%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.container2 {
-  width: 95%;
-  margin: auto;
-  margin-top: 20px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .photo-index {
   margin: 10px;
   width: 250px;
