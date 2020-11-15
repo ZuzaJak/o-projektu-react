@@ -17,7 +17,7 @@ const AboutUs = () => {
               href="https://github.com/ZuzaJak?tab=repositories"
               target="_blank"
             >
-              <img class="logo_github" src={githublogo} />
+              <img className="logo_github" src={githublogo} />
             </a>
             <p className="question">Nejoblíbenější html tag?</p>
             <p className="answer">div</p>
@@ -34,28 +34,28 @@ const AboutUs = () => {
         </div>
         <div className="col">
           <img className="photo" src={lenaPic} alt="Lena" />
-          <p class="nadpis_onas">Lena</p>
+          <p className="nadpis_onas">Lena</p>
 
-          <div class="card">
+          <div className="card">
             <a
               href="https://github.com/lenabacikova?tab=repositories"
               target="_blank"
             >
-              <img class="logo_github" src={githublogo} />
+              <img className="logo_github" src={githublogo} />
             </a>
-            <p class="question">Nejoblíbenější html tag?</p>
-            <p class="answer">
+            <p className="question">Nejoblíbenější html tag?</p>
+            <p className="answer">
               Slabost mám pro <em>span</em>, ale jsem rozechvělá i při
               přepočítávání koncových <em>divů.</em>
             </p>
-            <p class="question">
+            <p className="question">
               Jakým nejsprostějším slovem jsem pojmenovala komponentu?
             </p>
-            <p class="answer">
+            <p className="answer">
               <em>const</em> z**********
             </p>
-            <p class="question">Nejlepší css vlastnost?</p>
-            <p class="answer">Border ve všech podobách.</p>
+            <p className="question">Nejlepší css vlastnost?</p>
+            <p className="answer">Border ve všech podobách.</p>
           </div>
         </div>
       </div>
